@@ -1,0 +1,88 @@
+$browser-context: 14; // Default
+$spacing: 5; // Default
+
+// @function em($pixels, $context: $browser-context) {
+//   @return #{$pixels/$context}em;
+// }
+
+// @mixin generateFontSize () {
+//   @for $i from 8 to 40 {
+//     .font-#{$i} {
+//       font-size: $i+px;
+//     }
+
+//     @media screen and (min-width: 960px){
+//       .font-#{$i} {
+//         font-size: $i + 2 + px !important;
+//       }
+//     }
+//   }
+// }
+
+// @include generateFontSize();
+
+@font-face {
+  font-family: MooonBold;
+  src: url("../fonts/MoonLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MooonBold;
+  font-weight: 600;
+  src: url("../fonts/MoonBold.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MunDial;
+  src: url("../fonts/Fontspring-DEMO-4-mundial-regular-tty.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MunDial;
+  font-style: italic;
+  src: url("../fonts/Fontspring-DEMO-4-mundial-regular-italic-tty.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MunDial;
+  font-weight: 600;
+  src: url("../fonts/Fontspring-DEMO-6-mundial-bold-tty.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: MunDial;
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Fontspring-DEMO-6-mundial-bold-italic-tty.otf") format("opentype");
+}
+
+
+// @font-face {
+//   font-family: Avenir;
+//   font-weight: bold;
+//   src: url("../fonts/AvenirLTStd-Black.otf") format("opentype");
+// }
+
+// @font-face {
+//   font-family: SourceSansPro;
+//   font-weight: 400;
+//   src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+// }
+
+
+// @font-face {
+//   font-family: SourceSansPro;
+//   font-weight: 500;
+//   src: url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: SourceSansPro;
+//   font-weight: 700;
+//   src: url("../fonts/SourceSansPro-Bold.ttf") format("truetype");
+// }
+

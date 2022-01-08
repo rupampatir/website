@@ -1,0 +1,277 @@
+// .v-dialog {
+//     // overflow: hidden !important;
+//     // margin-left: 8px !important;
+//     // margin-right: 8px !important;
+//     position: relative;
+//     padding-top: 40px;
+//     .dialog-box-close-btn {
+//         position: absolute;
+//         top: 10px;
+//         right: 10px;
+//         width: 20px;
+//         height: 20px;
+//         cursor: pointer;
+
+//     }
+// }
+
+// .v-application a {
+//     color: inherit !important;
+// }
+
+// .v-app-bar {
+//     .v-toolbar__content {
+//         padding: 0;
+//     }
+// }
+
+// .theme--dark.v-btn:hover::before {
+//     opacity: 0  !important;
+// }
+// //primary button css
+// .v-btn.theme--dark.primary {
+//     color: black !important;
+//     path {
+//         fill: black !important;
+//     }
+//     &:hover {
+//         background-color: #D2AF64 !important;
+//         border-color: #D2AF64 !important;    
+//         path {
+//             fill: black !important;
+//         }  
+//     }
+// }
+
+// // secondary button css
+// .v-btn.theme--dark.c2  {
+//     border: 1px solid #12141C !important;  
+//     border-radius: 2px !important;
+//     color: white !important;
+//     path {
+//         fill: white !important;
+//     }
+//     &:hover {
+//         color: #d0bb79 !important;
+//         border: 1px solid #cfcab7 !important;
+//         path {
+//             fill: #d0bb79 !important;
+//         }
+//     }
+// }
+// .v-btn.theme--dark.v-btn--text{
+//     &:hover {
+//         color: white !important;
+//         path {
+//             fill: white !important;
+//         }
+//     }
+// }
+
+// // v-chip content takes full width
+// .v-chip .v-chip__content {
+//     width: 100%;
+//     word-break: break-word;
+//     text-align: center;
+//     white-space: normal;
+//     justify-content: center;
+// }
+
+// .v-chip:hover::before {
+//     opacity: 0 !important;
+// }
+// // breadcrumb remove padding of ol, ul
+// .v-breadcrumbs {
+//     padding-left: 0px !important;
+// }
+
+// // v-menu content box shadow overide and margin
+// .v-menu__content {
+//     margin-top: 50px;
+//     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2), 0 8px 6px -6px rgba(0, 0, 0, 0.14),
+//         0 8px 6px -6px rgba(0, 0, 0, 0.12) !important;
+// }
+
+// // v-list active-class for
+// .theme--dark.v-list-item--active:hover::before,
+// .theme--dark.v-list-item--active::before {
+//     display: none;
+// }
+
+// // v-select
+// .v-select__slot .v-input__append-inner {
+//     margin-top: 14px !important;
+// }
+// .small-items {
+//     .v-list.v-select-list {
+//         display: flex;
+//         flex-wrap: wrap;
+
+//         .v-list-item {
+//             max-width: 110px !important;
+
+//             &.v-list-item--link:before {
+//                 display: none !important;
+//             }
+//             .v-list-item__action {
+//                 margin-right: 10px;
+//             }
+//         }
+//     }
+// }
+
+// // v-text field
+// .v-text-field.v-text-field--outlined {
+//     .v-text-field__details {
+//         padding: unset !important;
+//     }
+// }
+
+// // v-main
+
+// .v-main {
+//     min-height: 90vh;
+//     padding-top: 80px !important;
+//     padding-bottom: 0px !important;
+// }
+
+// // not in vuetify but for vue-phone-number-input
+// .country-selector{
+//     width: 100px;
+// }
+// .country-selector__input,
+// .input-tel__input {
+//     background-color: #12141c !important;
+// }
+// .country-selector__label,
+// .input-tel__label {
+//     display: none !important;
+// }
+// .country-selector__input,
+// .input-tel__input {
+//     padding-right: 0 !important;
+//     padding-top: 0 !important;
+//     box-shadow: unset !important;
+//     background-color: transparent !important;
+// }
+// .vue-phone-number-input {
+//     .select-country-container {
+//         min-width: 90px;
+//         max-width: 90px;
+//     }
+//     .country-selector.input-country-selector.has-value .country-selector__input,
+//     .input-tel.input-phone-number.is-dark .input-tel__input {
+//         border-color: #878787;
+//     }
+//     .country-selector__toggle {
+//         display: none !important;
+//         // top: calc(50% - 8px) !important;
+//     }
+//     .country-selector__input,
+//     .input-tel.input-phone-number.is-dark .input-tel__input {
+//         height: 50px !important;
+//     }
+//     &.is-booted {
+//         .country-selector__input,
+//         .input-tel.input-phone-number.is-dark .input-tel__input {
+//             border-width: 2px !important;
+//         }
+//     }
+// }
+// .country-selector__country-flag {
+//     top: 18px !important;
+// }
+// .disable-expansion-icon .v-expansion-panel-header__icon {
+//     display: none;
+// }
+// .input-tel.has-error:not(.is-valid) {
+//     position: relative;
+//     &:after {
+//         position: absolute;
+//         background-image: url(~assets/sprite/svg/red_cross.svg);
+//         content: '';
+//         height: 20px;
+//         width: 20px;
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         top: 14px;
+//         right: 14px;
+//     }
+// }
+// .input-tel.is-valid {
+//     position: relative;
+//     &:after {
+//         position: absolute;
+//         background-image: url(~assets/sprite/svg/green_tick.svg);
+//         content: '';
+//         height: 20px;
+//         width: 20px;
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         top: 18px;
+//         right: 14px;
+//     }
+// }
+
+// // v-icon
+
+// .v-icon.notranslate.v-icon--link.mdi {
+//     &.mdi-menu-down.theme--dark::after,
+//     &.mdi-menu-up.theme--dark::after {
+//         display: none;
+//     }
+// }
+
+// // v-bottom-nvaigation
+
+// .v-item-group.v-bottom-navigation .v-btn {
+//     border-radius: 4px !important;
+//     * {
+//         color: #12141C !important;
+//     }
+// }
+
+// .v-card--link:focus:before {
+//     opacity: 0 !important;
+// }
+
+// //v-tabs
+
+// .v-tabs-items {
+//     background: transparent !important;
+// }
+// .theme--dark.v-tabs .v-tab--active:hover::before, .theme--dark.v-tabs .v-tab--active::before, .theme--dark.v-tabs .v-tab:hover::before {
+//     opacity: 0 !important;
+//     // cursor: pointer;
+// }
+
+// //slideGroup
+// .v-slide-group__prev.v-slide-group__prev--disabled {
+//     display: none !important;
+// }
+
+// // v-select
+// .v-application--is-ltr .v-text-field {.v-label ,.v-select__selections{
+//     margin-left: 8px !important;
+// }}
+
+// //v-list
+// .v-list {
+//     padding: 0 !important;
+//    .v-list-item.v-list-item--link.theme--dark:hover {
+//        background-color: #d0bb79;
+//        color: #12141C !important;
+//        path {
+//         fill: #12141C !important;
+//        }
+//        .border-hover-effect {
+//         border: 1px solid #12141c !important;
+
+//        }
+//    }
+// }
+
+// // disable ripple 
+// .v-ripple__container {
+//     display:none !important;
+// }
