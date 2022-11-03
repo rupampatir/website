@@ -24,8 +24,7 @@
               the Interpretability of AI.
             </p>
             <p>
-              I am actively pursuing an internship as a Software Engineer for
-              the summer of 2022.
+              I am actively pursuing Software Engineer roles
             </p>
           </h4>
           <v-card-actions class="pa-0">
@@ -55,6 +54,8 @@
 import MyTimeline from '../components/MyTimeline.vue'
 
 export default {
+
+  name: 'IndexPage',
     components: { MyTimeline },
 
   data() {
@@ -88,6 +89,5 @@ export default {
       alert(item.title)
     },
   },
-  name: 'IndexPage',
 }
 </script>

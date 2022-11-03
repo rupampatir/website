@@ -25,8 +25,11 @@ export default {
     '@/assets/css/main.scss'
   ],
 
+  
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '@/plugins/axios',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -34,7 +37,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
@@ -52,7 +55,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: "http://54.234.234.226:8080", // process.env.baseUrl //'http://backoffice-be-staging.getpodium.in/',
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -68,11 +71,11 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/css/variables.scss'],
-    defaultAssets: {
-      font: {
-        family: 'MunDial'
-      }
-    },
+    // defaultAssets: {
+    //   font: {
+    //     family: 'MunDial'
+    //   }
+    // },
     theme: {
       dark: false,
       themes: {

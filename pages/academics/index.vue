@@ -51,6 +51,13 @@ export default {
             <li>Architectured a server-client text-chat application using socket programming</li>
             <li>Incrementally built the features in C for the text application including broadcast messaging and file transfers</li>
             </ul>`
+      },  {
+        heading: 'MultiAgent Systems',
+        date: 'August 2022 - November 2022',
+        description: `<ul>
+            <li>Built MultiAgent Games</li>
+            </ul>`,
+        nuxt: '/multiagentsystems'
       }]
     }
   }

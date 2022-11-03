@@ -1,10 +1,10 @@
 <template>
   <v-app dark>
    
-    <v-app-bar color="primary" :clipped-left="clipped" fixed app>
+    <v-app-bar color="primary" fixed app>
    
       <nuxt-link to="/" class="mt-2">
-        <img height="80" width="80" src="RP-logos_white.png"/>
+        <img height="80" width="80" src="/RP-logos_white.png"/>
       </nuxt-link>
       <v-spacer></v-spacer>
       <v-btn color="white" class="font-weight-bold" plain to="/">
@@ -20,7 +20,7 @@
       </v-btn>
 
       <v-btn color="white" class="font-weight-bold" plain to="/academics">
-        Research|Projects
+        Research & Projects
       </v-btn>
     </v-app-bar>
 
